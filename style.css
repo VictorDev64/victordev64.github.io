@@ -1,0 +1,172 @@
+/* Estilos Gerais */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #222;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  color: #222;
+}
+
+/* Espaçamento geral entre seções */
+.secao {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+  background: #222;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.navegacao {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #00aaff;
+}
+
+/* Seção Hero */
+
+.hero {
+  background: #e1efff;
+  padding: 100px 20px;
+}
+
+.hero-conteudo {
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero span {
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+
+  background: #0077cc;
+  color: #fff;
+  text-decoration: none;
+
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background: #005fa3;
+}
+
+/* Habilidades */
+
+.habilidades ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+/* Projetos */
+
+.cards-projetos {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.card a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* Contato */
+
+.redes {
+  margin-top: 10px;
+}
+
+.redes a {
+  margin-right: 15px;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.redes a:hover {
+  text-decoration: underline;
+}
+
+/* Rodapé */
+
+.rodape {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #fff;
+}

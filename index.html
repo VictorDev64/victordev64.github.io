@@ -1,13 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Victor Almeida</title>
-    <link rel="stylesheet" href="styles.css"/>
-</head>
-<body>
-    <h1>Bem-vindo ao meu Portfólio</h1>
-    <p>Olá, meu nome é Victor! Veja um pouco mais sobre mim.</p>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <nav class="navegacao">
+        <h1 class="logo">Seu Nome</h1>
+        <ul class="menu">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-conteudo">
+          <h2>Olá! Sou <span>Victor Almeida</span>.</h2>
+          <p>Estudante de Ciência da Computação em desenvolvimento.</p>
+          <a href="#contato" class="botao">Entrar em contato</a>
+        </div>
+      </section>
+
+      <section id="sobre" class="secao sobre">
+        <h2>Sobre mim</h2>
+        <p>
+          Sempre fui um entusiasta de tecnologia apaixonado por jogos, mas
+          recentemente decidi entrar na área da programação. Atualmente estudo
+          conceitos de lógica, front-end, back-end e banco de dados. Busco
+          oportunidades para aprender e evoluir como desenvolvedor.
+        </p>
+      </section>
+
+      <section id="habilidades" class="secao habilidades">
+        <h2>Habilidades Técnicas:</h2>
+        <ul>
+          <li>HTML5 & CSS3</li>
+          <li>Python</li>
+          <li>Lógica de Programação</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </section>
+
+      <section id="projetos" class="secao projetos">
+        <h2>Meus Projetos</h2>
+
+        <div class="cards-projetos">
+          <article class="card">
+            <img src="img/projeto1.png" alt="Imagem do Projeto 1" />
+            <h3>Projeto 1 — Sistema de Cadastro</h3>
+            <p>
+              Um sistema simples feito em equipe utilizando HTML, CSS e
+              JavaScript para criar, listar e remover cadastros.
+            </p>
+            <a
+              href="https://github.com/AlexOnn1/Sistema-de-cadastro-usuario"
+              target="_blank"
+              >Ver no GitHub</a
+            >
+          </article>
+
+          <article class="card">
+            <img src="img/projeto2.png" alt="Imagem do Projeto 2" />
+            <h3>Projeto 2 — Analisador de Dados</h3>
+            <p>
+              Ferramenta feita em Python para leitura e análise de dados em CSV.
+            </p>
+            <a href="#" target="_blank">Ver no GitHub</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contato" class="secao contato">
+        <h2>Contato</h2>
+        <p>Entre em contato pelas opções a seguir:</p>
+        <p>
+          <a href="mailto:victorcomputacao2025@gmail.com"
+            >victorcomputacao2025@gmail.com</a
+          >
+        </p>
+
+        <div class="redes">
+          <a
+            href="https://www.linkedin.com/in/victor-almeida-a012a3360/"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/VictorDev64" target="_blank">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">Desenvolvido por Victor Almeida – 2025 ©</footer>
+  </body>
 </html>
